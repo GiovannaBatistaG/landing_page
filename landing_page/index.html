@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+          --color-clifford: #da373d;
+        }
+      </style>
+</head>
+<body>
+    <h1 class="text-3xl font-bold underline text-clifford">
+      Hello world!
+    </h1>
+    <br>
+    <h2>Tailwindcss</h2>
+    <p>Sintaxe: '@theme', '@variant' e '@source'</p>
+    <p>Possui uma ordem de classes que pode ser adcionada no codigo para facilitar as especificações do codigo </p>
+    <p>Sass, Less e Stylus, são ferramentas poderosas que oferecem uma série de recursos avançados para a estilização páginas web.</p>
+    <p>O Tailwind CSS v4.0 é uma ferramenta de construção CSS completa, projetada para um fluxo de trabalho específico e não foi projetada para ser usada com pré-processadores CSS como Sass, Less ou Stylus.</p>
+    <br>
+    <p>A estruta de css dele tambem é diferente, enquanto no css comum formamos desmembramos as classes
+        para poder estilizar cada parte dele, no tailwindcss conseguimos fazer um grupo e dentro dele descrever cada estilização especifica:
+        .typography { <br>
+            p { <br>
+              font-size: var(--text-base); <br>
+            } <br>
+            img { <br>
+              border-radius: var(--radius-lg);<br>
+            }<br>
+          } <br>
+          <br>
+        e ele mesmo se responsabiliza em trazer a a saida na estrutura padrão
+    </p>
+</body>
+</html>
