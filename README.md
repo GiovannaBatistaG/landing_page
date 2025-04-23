@@ -6,3 +6,5 @@ Além disso, o site oficial do Tailwind oferece:
 Layouts prontos, facilitando o desenvolvimento rápido de páginas.
 Estruturas padrão de fontes, cores e espaçamentos, todas personalizáveis.
 Acesso a esses recursos diretamente pelo código, utilizando apenas a importação via link ou instalação por ferramentas como NPM.
+
+Git Marcelin
